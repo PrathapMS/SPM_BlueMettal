@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Splash Screen',
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.yellow,
       ),
       home: SplashScreen(),
       debugShowCheckedModeBanner: false,
@@ -64,7 +64,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
 
 }
-/*class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
@@ -101,4 +101,4 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
-}*/
+}

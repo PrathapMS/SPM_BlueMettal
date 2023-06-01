@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:spm_bluemettal/colorFile.dart';
 import 'package:spm_bluemettal/main.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -35,7 +36,7 @@ class Login2 extends State<Login> {
                   padding: EdgeInsets.all(15),
                   child: TextFormField(
                     controller: emailController,
-                    obscureText: true,
+                    obscureText: false,
                     cursorColor: Colors.yellow,
                     style: TextStyle(fontSize: 18, color: Colors.white),
                     decoration: InputDecoration(
